@@ -1,0 +1,163 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* Common style  */
+body{
+              font-family: 'Poppins', sans-serif;
+              
+              
+}
+.container{
+              display: flex;
+              height: 540px;
+              width: 1100px;
+              background-color: #161616;
+              margin:50px 140px;
+              border-radius: 30px;
+              padding-top: 30px;
+}
+.section-title{
+              
+              padding: 20px;
+              color: white;
+}
+.event-title{
+              font-size: 60px;
+              font-weight: 700;
+}
+.link-button{
+              border: 1px solid orangered;
+              border-radius: 2px;
+              background-color: orangered;
+              text-decoration: none;
+              color:white;
+              padding-right: 10px;
+              
+}
+
+.event-banner img{
+              height: 500px;
+              padding-right: 20px;
+              padding-top: 40px;
+}
+/* style for second section  */
+.match-info{
+              
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              background-color: #161616;
+              margin-left: 120px;
+              height: 320px;
+              width: 300px;
+              padding-top: 50px;
+}
+.info-button{ 
+              border: 1px solid oldlace;
+              margin: 30px;
+              padding: 5px 20px;
+              background-color:#FFFFFF;
+              border-radius: 2px;   
+              text-decoration: none; 
+}
+.group-button{   
+              border: 1px solid oldlace;
+              padding: 5px 60px;
+              margin-top: 60px;
+              background-color:#FFFFFF;
+              border-radius: 2px;   
+              text-decoration: none; 
+}
+.blog-button{ 
+              border: 1px solid red;
+              background-color: orangered;
+              border-radius: 5px; 
+              padding: 2px 80px;
+              text-decoration: none;   
+}
+/* style transfer info  */
+.transfer-container {
+              height: 150px;
+              width: 240px;
+              border: 1px solid whitesmoke;
+              background-color: whitesmoke;
+              border-radius: 10px;
+              display: grid;
+              grid-template-columns: repeat(3,1fr);
+
+              
+              
+              }
+.transfer-info img{
+              width: 240px;
+              padding-right: 10px;
+}
+
+              
+.fa-clock{
+              margin:10px;
+}
+.fa-comment{
+              margin-left: 80px;
+              margin-right: 10px;
+}
+.info-container{
+              display: flex;
+              margin: 10px 30px;
+
+}
+.transfer-info{
+              margin:10px;
+}
+.footer-added{
+              margin-top:400px;
+              text-align: center;
+              padding-top: 100px;
+              
+              color: #FFFFFF;
+              height: 350px;
+              width: 100%;
+              background-color: black;
+              
+
+}
+.line{
+              width: 80%;
+              color: #FFFFFF;
+}
+.footer-content{
+              display: flex;
+             justify-content: space-between;
+             margin: 10px 200px;
+}
+/* midea queries */
+/* mobile devices */
+@media only screen and (max-width:688px){
+              .container .info-container .footer-added{
+                            width: 80%;
+              }
+              .container{
+                            display: flex;
+                            flex-direction: column;
+                            height: 100%;
+                            align-items: center;
+                            font-size: 1.5em;
+              }
+              .section-title{
+                            text-align: center;
+                            width: 50%;
+              }
+              .transfer-container,.transfer-info{
+                            grid-template-columns: repeat(1,1fr);
+
+              }
+              .info-container{
+                            flex-direction:column;
+              }
+              .match-info{
+                            width: 100%;
+              }
+
+              
+}
+
+
