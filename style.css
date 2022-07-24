@@ -121,6 +121,7 @@ body{
 .transfer-info{
               margin:10px;
 }
+/* Footer style  */
 .footer-added{
               margin-top:400px;
               text-align: center;
@@ -144,33 +145,6 @@ body{
 }
 /* midea queries */
 /* mobile devices */
-@media only screen and (max-width:688px){
-              .container .info-container .footer-added{
-                            width: 80%;
-              }
-              .container{
-                            display: flex;
-                            flex-direction: column;
-                            height: 100%;
-                            align-items: center;
-                            font-size: 1.5em;
-              }
-              .section-title{
-                            text-align: center;
-                            width: 50%;
-              }
-              .transfer-container,.transfer-info{
-                            grid-template-columns: repeat(1,1fr);
 
-              }
-              .info-container{
-                            flex-direction:column;
-              }
-              .match-info{
-                            width: 100%;
-              }
-
-              
-}
 
 
